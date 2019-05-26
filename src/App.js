@@ -35,9 +35,7 @@ class App extends React.Component {
                                   <p className="card-text">Location : {responseData.location}</p>
                                   <p className="card-text"><small class="text-muted">Public Repos : {responseData.public_repos}</small></p>
                                   <p className="card-text"><small class="text-muted">Public Gists : {responseData.public_gists}</small></p>
-                                  <p className="card-text"><small class="text-muted">Public Gists : {responseData.public_gists}</small></p>
                                   <p className="card-text"><small class="text-muted">Followers : {responseData.followers}</small></p>
-                                  <p className="card-text"><small class="text-muted">Following : {responseData.following}</small></p>
                                   <p className="card-text"><small class="text-muted">Following : {responseData.following}</small></p>
                                 </div>
                               </div>
